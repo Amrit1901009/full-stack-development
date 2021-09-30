@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;background-color: #333}
+form {border: 3px solid #DA0037;}
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+    
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+    
+}
+
+button {
+  background-color: #DA0037;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+    .logocontainer{
+        padding-left: 22px;
+        
+    }
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+    .map{
+               float: right;
+                padding-top: 20px;
+                padding-right: 20px;
+                
+            }
+</style>
+</head>
+<body>
+
+<h1><span style="color:white">AMZ</span><span style="color:#DA0037">KART</span></h1>
+
+<form action="onlineshopping.html" method="post">
+     <div class="map">
+       <img src="blog_2.jpg" style="height: 405px;width: 530px ">
+            </div>
+  <div class="logocontainer">
+    <h1 style="color:white">Sign Up</h1>
+  </div>
+
+  <div class="container">
+    <label for="fname" style="color:white"><b>First Name</b></label>
+    <input type="text" placeholder="Enter Username" name="fname" required>
+      <label for="lname" style="color:white"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Username" name="lname" required>
+      <label for="uname" style="color:white"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw" style="color:white;"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Sign Up</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="display: block; "> <span style="color:white">Remember me</span>
+    </label>
+       <p style="color: white">Already have an account?<a href="login.html" style="color: #DA0037">Login</a></p>
+  </div>
+
+  <div class="container" style="background-color:#333">
+    <button type="button" class="cancelbtn" >Cancel</button>
+    
+  </div>
+</form>
+
+</body>
+</html>
